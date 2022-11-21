@@ -1,31 +1,56 @@
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 45px; 
+    max-width: 1300px;
+    max-height: fit-content;
+    border-radius: 12px;
+    margin: 20px 30px;
+    display: block;
+}
+
 body {
-    background-color: rgb(255, 198, 198);
-    border: 50px; 
-    border-radius: 4px;
-    con
-    border-color: brown;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(to right, rgb(157, 157, 255), rgb(255, 154, 154));
 }
 
-h1 {
-    
-}
-
-.div {
-    justify-content: flex-start center flex-end;
+.intro {
+    display: inline-flex;
+    padding: 50px;
 }
 
 .bi {
-
+    padding: 50px 100px;
+    max-width: 400px;
 }
 
-.semi {
+.img {
+    padding: 50px 70px;
+}
 
+li{
+    display: inline-flex;
+    border: 1px solid rgb(207, 207, 207);
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+ul {
+    padding: 50px 100px;
+}
+.fan {
+    display: inline-flex;
+    padding-left: 50px;
+   
 }
 
 .klop {
-
-}
-
-div {
+    padding: 50px 70px;
+    max-width: 600px;
 
 }
